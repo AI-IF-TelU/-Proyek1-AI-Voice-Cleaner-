@@ -1,5 +1,9 @@
 # AGENTS.md — Kontrak kerja coding assistant
 
+## Identitas proyek
+Nama produk: **Nirava**. Tagline: **Keep the voice. Lose the noise.**
+Nama proyek masih perlu pemeriksaan merek dan tidak mengubah status Stage 1.
+
 ## Urutan baca
 1. `README.md` dan `docs/PRD.md`.
 2. `docs/STAGE1_VALIDATION.md` (gate sebelum implementasi).

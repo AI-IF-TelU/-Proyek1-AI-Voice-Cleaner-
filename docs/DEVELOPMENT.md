@@ -25,6 +25,3 @@ FE/UI, BE/API+DB, ML/evaluation, integration/QA/docs. Roles may overlap dependin
 
 ## Definition of done
 No broken demo path; no fabricated results; valid error states; tests passing; secrets not committed; cleanup verified; documented model license and deployment constraints.
-
-## Catatan audit blueprint
-[Audit 23 Oktober 2026](BLUEPRINT_AUDIT.md) mencatat perbaikan kontrak dan bukti yang masih diperlukan. Sebelum Stage 2, catat verdict GO beserta bukti rubrik, kelayakan model, dan persetujuan pengguna atas demo concept di STAGE1_VALIDATION.md.

@@ -20,3 +20,8 @@ Keyboard navigation, visible focus, contrast check, labels, meaningful status an
 
 ## QA
 3-second screenshot test with 3 reviewers is a subjective heuristic, not an objective proof of human authorship. Verify performance and accessibility against actual deployment, not promises.
+
+## Identitas merek sementara
+- Product name: **Nirava**
+- Tagline: **Keep the voice. Lose the noise.**
+- Identitas visual belum final sebelum riset referensi Stage 2.

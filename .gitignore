@@ -13,15 +13,4 @@ data/
 *.flac
 *.pt
 *.pth
-
-
-**/.env.*
-!**/.env.example
-runtime/
-*.m4a
-*.ogg
-*.aac
-*.safetensors
-*.ckpt
-*.sql
-*.dump
+!**/fixtures/**

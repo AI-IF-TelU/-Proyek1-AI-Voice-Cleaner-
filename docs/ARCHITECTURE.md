@@ -15,7 +15,7 @@ flowchart TD
 
 ## Monorepo target
 ```
-dening-ai/
+nirava/
   frontend/
     src/app/{layout.tsx,page.tsx,globals.css}
     src/components/{audio,layout,ui}/
@@ -53,9 +53,3 @@ dening-ai/
 
 ## Trade-off
 PostgreSQL lebih berat daripada SQLite untuk MVP tetapi dipilih untuk deployment persisten dan pembelajaran skema. Next.js lebih fleksibel untuk desain daripada Streamlit tetapi menambah kompleksitas TypeScript.
-
-## Admission, audio, dan cleanup
-- Antrean lokal harus berbatas; tolak dengan 429 sebelum mengembalikan 202 bila kapasitas penuh. Pada restart, tandai pending/processing yang terputus sebagai failed dengan kode aman dan bersihkan file parsial.
-- Decoder memvalidasi sample rate positif dan batas channel/sample rate yang disepakati melalui uji model; nilai dukungan masih keputusan Stage 1, bukan kemampuan yang telah diuji. Resampling ke kebutuhan model hanya dilakukan backend, dengan batas decoded samples/memori dan timeout.
-- Scheduler cleanup berjalan berkala dan saat startup. Tandai expired sebelum menghapus file; retry kegagalan penghapusan. Worker memeriksa status sebelum mempublikasikan hasil agar tidak menghidupkan job yang dihapus.
-- Token/hash, isi audio, dan path privat tidak dicatat pada log. Semua akses job melewati FastAPI.

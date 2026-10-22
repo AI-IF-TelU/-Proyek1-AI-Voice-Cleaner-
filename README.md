@@ -1,6 +1,7 @@
-# DeningAI — Speech Restoration Workspace
+# Nirava — Speech Restoration Workspace
 
-> Working name; belum diverifikasi sebagai merek atau nama repo unik.
+> Nama kerja: **Nirava**. Nama ini telah digunakan pihak lain; penggunaan komersial dan ketersediaan merek/domain belum terverifikasi.
+> Tagline: **Keep the voice. Lose the noise.**
 
 ## Status
 Stage 1: **PIVOT TERARAH / GO tertunda**. Arsitektur disepakati, klaim Generative AI dan kesesuaian rubrik dosen belum diverifikasi. Jangan memulai Stage 2 tanpa persetujuan eksplisit.
@@ -27,6 +28,3 @@ Next.js + TypeScript; FastAPI + Python; PostgreSQL; DeepFilterNet (baseline kand
 5. Periksa `/api/v1/health` dan alur upload → job → hasil.
 
 Instruksi CLI persis akan ditambahkan setelah scaffold dibuat dan diuji.
-
-## Audit blueprint
-Lihat [hasil audit 23 Oktober 2026](docs/BLUEPRINT_AUDIT.md). Blueprint masih berupa rancangan; belum ada implementasi, hasil uji model, atau persetujuan GO. Audit konsistensi dokumen tidak menggantikan validasi Stage 1.

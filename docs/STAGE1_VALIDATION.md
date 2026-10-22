@@ -8,7 +8,7 @@ AI/ML × speech enhancement. **Verdict: PIVOT TERARAH; GO tertunda.** Ini bukan 
 - Pain: ucapan sulit dipahami akibat kebisingan latar.
 - Angle: fokus pada intelligibility dan pelestarian karakter suara, bukan klaim menghapus seluruh noise.
 - Problem question: Bagaimana membersihkan noise tanpa merusak informasi ucapan?
-- Nama kerja: DeningAI; belum dicek ketersediaan legal/GitHub.
+- Nama kerja: Nirava. Nama ini telah digunakan pihak lain; belum ada pemeriksaan merek, domain, atau ketersediaan repository secara menyeluruh.
 
 ## ChatGPT test
 Aplikasi memproses audio sungguhan; hasil tidak dapat digantikan dengan satu jawaban teks. Lulus secara konseptual, tetap perlu demo.
