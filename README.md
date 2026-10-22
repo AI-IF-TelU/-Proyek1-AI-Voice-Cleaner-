@@ -28,3 +28,6 @@ Next.js + TypeScript; FastAPI + Python; PostgreSQL; DeepFilterNet (baseline kand
 5. Periksa `/api/v1/health` dan alur upload → job → hasil.
 
 Instruksi CLI persis akan ditambahkan setelah scaffold dibuat dan diuji.
+
+## Audit blueprint
+[Hasil audit dan audit ulang blueprint](docs/BLUEPRINT_AUDIT.md) memisahkan konsistensi rancangan dari validasi empiris. Blueprint belum membuktikan kelayakan model dan belum membuka gate Stage 2.

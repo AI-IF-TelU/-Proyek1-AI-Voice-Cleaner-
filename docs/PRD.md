@@ -15,7 +15,7 @@ Landing langsung ke workspace → pilih sampel atau upload → validasi → prog
 - Backend mengembalikan job ID + akses token rahasia; frontend polling status.
 - Hasil dapat didengarkan dengan perbandingan waktu yang sepadan.
 - Jika model gagal, tampilkan pesan aman, tidak menyimpan stack trace untuk user.
-- Audio dan metadata kedaluwarsa otomatis (target 24 jam, tunduk kebijakan kampus).
+- Akses audio kedaluwarsa otomatis (target 24 jam sejak pembuatan). Penghapusan fisik dilakukan cleanup berkala dengan retry; metadata otorisasi minimal sementara mengikuti kebijakan tombstone di DATABASE_SCHEMA.md, masih tunduk persetujuan kampus.
 - Aplikasi nyaman pada mobile dan desktop, keyboard accessible.
 
 ## Out of scope
